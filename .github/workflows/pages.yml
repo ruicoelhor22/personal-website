@@ -1,5 +1,7 @@
 name: Deploy portfolio to GitHub Pages
 
+# Publish the dist directory, which contains the website index.html.
+
 on:
   push:
     branches: [main]
